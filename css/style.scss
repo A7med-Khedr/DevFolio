@@ -408,6 +408,16 @@ section.contact {
         @include breakPoints(mobile) {
           margin-bottom: 25px;
         }
+        input,
+        textarea {
+          border-radius: 6px;
+          border: 1px solid;
+          border-color: transparent transparent var(--bs-blue) var(--bs-blue);
+          box-shadow: 1px 1px 1px #1876f277;
+          &:focus {
+            outline: none;
+          }
+        }
       }
       .social {
         .facebook {

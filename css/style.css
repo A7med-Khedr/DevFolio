@@ -368,6 +368,17 @@ section.contact .container .heading::after {
     margin-bottom: 25px;
   }
 }
+section.contact .container .row .form input,
+section.contact .container .row .form textarea {
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: transparent transparent var(--bs-blue) var(--bs-blue);
+  box-shadow: 1px 1px 1px rgba(24, 118, 242, 0.4666666667);
+}
+section.contact .container .row .form input:focus,
+section.contact .container .row .form textarea:focus {
+  outline: none;
+}
 section.contact .container .row .social .facebook {
   color: #1877f2;
 }
