@@ -1,0 +1,42 @@
+// todo ----------------------- Start Portfolio Page--------------------- //
+
+section.port {
+  background: linear-gradient(
+      to top,
+      rgba(0, 119, 255, 0.9),
+      rgba(0, 119, 255, 0.9)
+    ),
+    url("../images/port.jpg") center/cover fixed no-repeat;
+  height: 50vh;
+  display: grid;
+  place-content: center;
+}
+
+// todo ----------------------- End Portfolio Page ---------------------- //
+
+section.main {
+  .image {
+    .bullets {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li {
+        margin-inline: 5px;
+        margin-top: 10px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid var(--bs-blue);
+      }
+      li.active {
+        background-color: var(--bs-blue);
+      }
+    }
+  }
+  .det {
+    @include breakPoints(mobile) {
+      margin-bottom: 10px;
+    }
+  }
+}

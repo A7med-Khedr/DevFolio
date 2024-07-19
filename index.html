@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DevFolio</title>
+  </head>
+  <body>
+    <!--  todo ------------------------------- Start Body ------------------------------- -->
+    <main
+      class="bg-body-tertiary"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar"
+    >
+      <!--  todo ------------------------------- Start Header ------------------------------- -->
+      <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand fs-3 fw-semibold text-light" href="#"
+              >DevFolio</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars bar"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle d-flex align-items-center gap-2"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                    <i
+                      class="fa-solid fa-chevron-down"
+                      style="font-size: 0.7rem"
+                    ></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+
+                    <!-- ! Dropdown 2 -->
+                    <li class="dropdown dropdown-2">
+                      <a
+                        class="dropdown-item d-flex align-items-center gap-2"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >Deep Dropdown <i class="fa-solid fa-angle-right"></i
+                      ></a>
+                      <!-- ? UL 2 -->
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Dropdown 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Dropdown 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Dropdown 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Dropdown 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Dropdown 5</a>
+                        </li>
+                      </ul>
+                      <!-- ? UL 2 -->
+                    </li>
+                    <!-- ! Dropdown 2 -->
+
+                    <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Dropdown 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--  todo ------------------------------- End Header ------------------------------- -->
+      <!--  todo ------------------------------- Start Home --------------------------------- -->
+      <section id="home" class="home">
+        <div
+          class="container min-vh-100 d-flex align-items-center justify-content-center"
+        >
+          <div class="text">
+            <h1 class="display-3 fw-semibold text-light">
+              I am Morgan Freeman
+            </h1>
+            <p class="title display-6 fw-semibold m-auto text-white-50">
+              Front-End Developer
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Home ------------------------------- -->
+      <!--  todo ------------------------------- Start About ---------------------------- -->
+      <section class="about py-5 my-5" id="about">
+        <article class="container px-5 py-5 rounded">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="row mb-md-5 mb-sm-5 mob">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="image p-1">
+                    <img
+                      loading="lazy"
+                      class="img-fluid rounded"
+                      src="./images/About.jpg"
+                      alt="Person"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                  <p class="text-black-50">
+                    <span class="fw-bold text-dark">Name:</span> Morgan Freeman
+                  </p>
+                  <p class="text-black-50">
+                    <span class="fw-bold text-dark">Profile:</span> Full Stack
+                    Developer
+                  </p>
+                  <p class="text-black-50">
+                    <span class="fw-bold text-dark">Email:</span>
+                    contact@example.com
+                  </p>
+                  <p class="text-black-50">
+                    <span class="fw-bold text-dark">Phone:</span> (617) 557-0089
+                  </p>
+                </div>
+                <div class="col-12">
+                  <h5 class="my-3">Skill</h5>
+                  <div class="prog mb-3">
+                    <span class="text-black-50">HTML 85%</span>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar"
+                        style="width: 0%"
+                        data-width="85%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="prog mb-3">
+                    <span class="text-black-50">CSS 75%</span>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar"
+                        style="width: 0"
+                        data-width="75%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="prog mb-3">
+                    <span class="text-black-50">JAVASCRIPT 90%</span>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar"
+                        style="width: 0%"
+                        data-width="90%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="prog">
+                    <span class="text-black-50">PHP 50%</span>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Basic example"
+                      aria-valuenow="0"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar"
+                        style="width: 0"
+                        data-width="50%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="main-header mb-3">
+                <h3>About me</h3>
+              </div>
+              <div class="paragraph">
+                <p class="text-black-50 lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Provident temporibus voluptatum veritatis unde blanditiis
+                  perferendis ratione? Quidem fugit quam aliquid suscipit labore
+                  sint, quod tempora delectus accusantium recusandae ipsum
+                  asperiores?
+                </p>
+                <p class="text-black-50 lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Provident temporibus voluptatum veritatis unde blanditiis
+                  perferendis ratione? Quidem fugit quam aliquid suscipit labore
+                  sint, quod tempora delectus accusantium recusandae ipsum
+                  asperiores?
+                </p>
+                <p class="text-black-50 lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Provident temporibus voluptatum veritatis unde blanditiis
+                  perferendis ratione? Quidem fugit quam aliquid suscipit labore
+                  sint, quod tempora delectus accusantium recusandae ipsum
+                  asperiores?
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!--  todo ------------------------------- End About ------------------------------- -->
+      <!--  todo ------------------------------- Start Services -------------------------- -->
+      <section class="services py-5" id="services">
+        <div class="container">
+          <div class="heading text-center">
+            <h2 class="fw-bold text-uppercase">Services</h2>
+            <p class="text-black-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="box text-center bg-white p-4 rounded-4 d-flex flex-column gap-2 shadow-sm"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-toolbox"></i>
+                </div>
+                <h3 class="text-uppercase fs-4">Web Design</h3>
+                <p class="text-black-50 fs-6 lh-base">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eius, Magni adipisci eaque autem fugiat! Quia, Provident
+                  vitae! Magni tempora perferendis eum non Provident.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-md-4">
+              <div
+                class="box text-center bg-white p-4 rounded-4 d-flex flex-column gap-2 shadow-sm"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-barcode"></i>
+                </div>
+                <h3 class="text-uppercase fs-4">Web Development</h3>
+                <p class="text-black-50 fs-6 lh-base">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eius, Magni adipisci eaque autem fugiat! Quia, Provident
+                  vitae! Magni tempora perferendis eum non Provident.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="box text-center bg-white p-4 rounded-4 d-flex flex-column gap-2 shadow-sm"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <h3 class="text-uppercase fs-4">Photography</h3>
+                <p class="text-black-50 fs-6 lh-base">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eius, Magni adipisci eaque autem fugiat! Quia, Provident
+                  vitae! Magni tempora perferendis eum non Provident.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="box text-center bg-white p-4 rounded-4 d-flex flex-column gap-2 shadow-sm"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-bars-progress"></i>
+                </div>
+                <h3 class="text-uppercase fs-4">Responsive Design</h3>
+                <p class="text-black-50 fs-6 lh-base">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eius, Magni adipisci eaque autem fugiat! Quia, Provident
+                  vitae! Magni tempora perferendis eum non Provident.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-md-4">
+              <div
+                class="box text-center bg-white p-4 rounded-4 d-flex flex-column gap-2 shadow-sm"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-gears"></i>
+                </div>
+                <h3 class="text-uppercase fs-4">Graphic Design</h3>
+                <p class="text-black-50 fs-6 lh-base">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eius, Magni adipisci eaque autem fugiat! Quia, Provident
+                  vitae! Magni tempora perferendis eum non Provident.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="box text-center bg-white p-4 rounded-4 d-flex flex-column gap-2 shadow-sm"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-envelopes-bulk"></i>
+                </div>
+                <h3 class="text-uppercase fs-4">Marking Services</h3>
+                <p class="text-black-50 fs-6 lh-base">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eius, Magni adipisci eaque autem fugiat! Quia, Provident
+                  vitae! Magni tempora perferendis eum non Provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Services ---------------------------- -->
+      <!--  todo ------------------------------- Start Stats ----------------------------- -->
+      <section class="stats py-5 px-lg-5" id="stats">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 p-5 text-center text-light">
+              <i class="fa-regular fa-circle-check fs-3"></i>
+              <h4 class="number" data-number="450">0</h4>
+              <p class="text-uppercase">Work Completed</p>
+            </div>
+            <div class="col-md-6 col-lg-3 p-5 text-center text-light">
+              <i class="fa-solid fa-circle-check fs-3"></i>
+              <h4 class="number" data-number="25">0</h4>
+              <p class="text-uppercase">Years Experience</p>
+            </div>
+            <div class="col-md-6 col-lg-3 p-5 text-center text-light">
+              <i class="fa-solid fa-circle-check fs-3"></i>
+              <h4 class="number" data-number="550">0</h4>
+              <p class="text-uppercase">Total Clients</p>
+            </div>
+            <div class="col-md-6 col-lg-3 p-5 text-center text-light">
+              <i class="fa-solid fa-circle-check fs-3"></i>
+              <h4 class="number" data-number="300">0</h4>
+              <p class="text-uppercase">Award Won</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Stats ------------------------------- -->
+      <!--  todo ------------------------------- Start Portfolio ------------------------- -->
+      <section class="portfolio py-5" id="portfolio">
+        <div class="container">
+          <div class="heading text-center">
+            <h2 class="fw-bold text-uppercase">Portfolio</h2>
+            <p class="text-black-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row mt-5 gy-2">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_1.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">lorem impsum dolor</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_2.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Loreda Cuno Nere</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_3.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Mavrito Lana Dere</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_4.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Bindo Laro Cado</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_5.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Studio Lena Mado</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_6.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Studio Big Bang</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_7.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Loreda Cuno Nere</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <figure class="rounded-3">
+                <div class="image shadow">
+                  <img
+                    loading="lazy"
+                    class="img-fluid rounded-top-2"
+                    src="images/port_8.jpg"
+                    alt=""
+                  />
+                </div>
+                <figcaption class="p-3 bg-white shadow-sm rounded-bottom-3">
+                  <h4 class="fs-5">Mavrito Lana Dere</h4>
+                  <p class="d-flex align-items-center justify-content-between">
+                    <small
+                      ><span class="text-primary">Web Design </span>/ 19
+                      Jun.2024</small
+                    ><span
+                      ><a href="port.html"
+                        ><i class="fa-solid fa-plus d-flex"></i></a
+                    ></span>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Portfolio --------------------------- -->
+      <!--  todo ------------------------------- Start Testimonials ---------------------- -->
+
+      <section class="testimonials p-lg-5">
+        <div class="container">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators" style="bottom: -45px">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center px-5 text-white">
+                <img
+                  loading="lazy"
+                  class="img-fluid my-2"
+                  src="images/test_1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <h3 class="fw-medium fs-4">Xavi Alonso</h3>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  iure illo possimus vel non.
+                </p>
+                <p>Quas fugit iste illum rem enim.</p>
+              </div>
+              <div class="carousel-item text-center text-white px-5">
+                <img
+                  loading="lazy"
+                  class="img-fluid my-2"
+                  src="images/test_2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <h3 class="fw-medium fs-4">John Alonso</h3>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  iure illo possimus vel non.
+                </p>
+                <p>Quas fugit iste illum rem enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Testimonials ------------------------ -->
+      <!--  todo ------------------------------- Start Blog ------------------------------ -->
+      <section class="blog py-5" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="card-group">
+              <div class="col-md-6 col-lg-4 p-3">
+                <div class="card shadow-sm rounded">
+                  <img
+                    loading="lazy"
+                    src="images/card_1.jpg"
+                    class="card-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">See More Ideas about Travel</h5>
+                    <p class="card-text text-black-50 lh-lg">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small
+                      class="text-body-secondary d-flex justify-content-between"
+                      ><div class="image">
+                        <img
+                          class="img-fluid"
+                          src="images/About.jpg"
+                          alt=""
+                        />Morgan Freeman
+                      </div>
+                      <span
+                        ><i class="fa-regular fa-clock"></i> 10 min</span
+                      ></small
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 p-3">
+                <div class="card shadow-sm rounded">
+                  <img
+                    loading="lazy"
+                    src="images/card_2.jpg"
+                    class="card-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">See More Ideas about Travel</h5>
+                    <p class="card-text text-black-50 lh-lg">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small
+                      class="text-body-secondary d-flex justify-content-between"
+                      ><div class="image">
+                        <img
+                          class="img-fluid"
+                          src="images/About.jpg"
+                          alt=""
+                        />Morgan Freeman
+                      </div>
+                      <span
+                        ><i class="fa-regular fa-clock"></i> 10 min</span
+                      ></small
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 p-3">
+                <div class="card shadow-sm rounded">
+                  <img
+                    loading="lazy"
+                    src="images/card_3.jpg"
+                    class="card-img-top rounded-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">See More Ideas about Travel</h5>
+                    <p class="card-text text-black-50 lh-lg">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small
+                      class="text-body-secondary d-flex justify-content-between"
+                      ><div class="image">
+                        <img
+                          class="img-fluid"
+                          src="images/About.jpg"
+                          alt=""
+                        />Morgan Freeman
+                      </div>
+                      <span
+                        ><i class="fa-regular fa-clock"></i> 10 min</span
+                      ></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Blog -------------------------------- -->
+      <!--  todo ------------------------------- Start Contact --------------------------- -->
+      <section class="contact py-lg-5" id="contact">
+        <div class="container bg-white p-lg-5">
+          <div class="row">
+            <div class="col-md-12 col-lg-6 mb-md-4 form">
+              <div class="heading mb-4">
+                <h2 class="fw-semibold fs-2">Send Message Us</h2>
+              </div>
+              <form action="" class="pt-3 text-center">
+                <input
+                  class="w-100 py-2 px-3 mb-2 border"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your Name"
+                />
+                <input
+                  class="w-100 py-2 px-3 mb-2 border"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Your Email"
+                />
+                <input
+                  class="w-100 py-2 px-3 mb-2 border"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Subject"
+                />
+                <textarea
+                  class="w-100 py-2 px-3 mb-2 border"
+                  rows="4"
+                  name=""
+                  id=""
+                  placeholder="Message"
+                ></textarea>
+                <input
+                  class="bg-primary btn text-white rounded-pill px-4 mt-3"
+                  type="submit"
+                  value="Send Message"
+                />
+              </form>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="heading mb-4">
+                <h2 class="fw-semibold fs-2">Get in Touch</h2>
+              </div>
+              <p class="text-black-50 lh-lg text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore eaque nulla molestias omnis voluptas ut velit rem
+                quod. Accusamus sint, pariatur temporibus sunt voluptate error?
+                Dolores laudantium impedit velit odio!
+              </p>
+              <p class="text-black-50">
+                <span class="text-primary"
+                  ><i class="fa-solid fa-location-dot"></i
+                ></span>
+                329 WASHINGTON ST BOSTON, MA 02108
+              </p>
+              <p class="text-black-50">
+                <span class="text-primary"
+                  ><i class="fa-solid fa-mobile-screen"></i
+                ></span>
+                (617) 557-0089
+              </p>
+              <p class="text-black-50">
+                <span class="text-primary"
+                  ><i class="fa-solid fa-envelope"></i
+                ></span>
+                contact@example.cpm
+              </p>
+              <div class="social mt-4">
+                <span class="p-2 rounded-circle border-primary icons"
+                  ><a href="#0"
+                    ><i class="fa-brands fa-facebook facebook fs-4"></i></a
+                ></span>
+                <span class="p-2 rounded-circle border-primary icons"
+                  ><a href="#0"
+                    ><i class="fa-brands fa-twitter twitter fs-4"></i></a
+                ></span>
+                <span class="p-2 rounded-circle border-primary icons"
+                  ><a href="#0"
+                    ><i class="fa-brands fa-linkedin linkedin fs-4"></i></a
+                ></span>
+                <span class="p-2 rounded-circle border-primary icons"
+                  ><a href="#0"
+                    ><i class="fa-brands fa-github github fs-4"></i></a
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  todo ------------------------------- End Contact ----------------------------- -->
+      <!--  todo ------------------------------- Start Footer ---------------------------- -->
+      <footer class="bg-primary p-4">
+        <div class="container text-center text-white">
+          <p>
+            &copy; Copyright <span class="fw-bold">DevFolio</span>. All Right
+            Reserved
+          </p>
+          <p>Designed By <span class="fw-bold">Khedr</span></p>
+        </div>
+      </footer>
+      <!--  todo ------------------------------- End Footer ------------------------------ -->
+    </main>
+    <!--  todo --------------------------------- End Body ------------------------------- -->
+    <!-- Bootstrap -->
+    <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="javascript/all.min.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Add jQuery -->
+    <script src="javascript/jQuery/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Main Javascript -->
+    <script src="javascript/main.js" type="module"></script>
+  </body>
+</html>

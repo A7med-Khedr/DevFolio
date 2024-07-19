@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--  todo ------------------------------- Start Header ----------------------------- -->
+    <header class="fixed-top bg-transparent">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-semibold text-light" href="#"
+            >DevFolio</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars bar"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex align-items-center gap-2"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                  <i
+                    class="fa-solid fa-chevron-down"
+                    style="font-size: 0.7rem"
+                  ></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+
+                  <!-- ! Dropdown 2 -->
+                  <li class="dropdown dropdown-2">
+                    <a
+                      class="dropdown-item d-flex align-items-center gap-2"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >Deep Dropdown <i class="fa-solid fa-angle-right"></i
+                    ></a>
+                    <!-- ? UL 2 -->
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Dropdown 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Dropdown 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Dropdown 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Dropdown 4</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Dropdown 5</a>
+                      </li>
+                    </ul>
+                    <!-- ? UL 2 -->
+                  </li>
+                  <!-- ! Dropdown 2 -->
+                  <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dropdown 4</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="port">
+      <div class="container text-center text-white">
+        <div class="text">
+          <h1>Portfolio Details</h1>
+          <p><span>Home</span> Portfolio Details</p>
+        </div>
+      </div>
+    </section>
+    <!--  todo ------------------------------- End Header ------------------------------- -->
+    <!--  todo ------------------------------- Start Port ------------------------------- -->
+    <section class="main pt-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="image bg-white rounded-3">
+              <img class="img-fluid rounded-3" src="images/main.jpg" alt="" />
+              <ul class="bullets">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-12">
+                <div class="text-1 bg-white p-3">
+                  <h3>Project Information</h3>
+                  <p class="text-black-50">
+                    <span class="fw-semibold text-secondary">Category:</span>
+                    Web Design
+                  </p>
+                  <p class="text-black-50">
+                    <span class="fw-semibold text-secondary">Client:</span>
+                    ASu Company
+                  </p>
+                  <p class="text-black-50">
+                    <span class="fw-semibold text-secondary"
+                      >Project Date:</span
+                    >
+                    01 March, 2020
+                  </p>
+                  <p class="text-black-50">
+                    <span class="fw-semibold text-secondary">Project URL:</span>
+                    www.example.com
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 bg-white mt-3 p-3 det">
+                <h3 class="fs-4 fw-semibold">
+                  This Is example Of Portfolio Details
+                </h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis corrupti debitis dolore odit necessitatibus, sed,
+                  dolorum eum cupiditate molestiae tempore, illo culpa est?
+                  Commodi tempore assumenda incidunt at officiis voluptatum!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  todo ------------------------------- End Port --------------------------------- -->
+    <!--  todo ------------------------------- Start Footer --------------------------------- -->
+    <footer class="bg-primary p-4">
+      <div class="container text-center text-white">
+        <p>
+          &copy; Copyright <span class="fw-bold">DevFolio</span>. All Right
+          Reserved
+        </p>
+        <p>Designed By <span class="fw-bold">BootstrapMade</span></p>
+      </div>
+    </footer>
+    <!--  todo ------------------------------- End Footer --------------------------------- -->
+    <!-- Bootstrap -->
+    <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="javascript/all.min.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Add jQuery -->
+    <script src="javascript/jQuery/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Main Javascript -->
+    <script src="javascript/main.js" type="module"></script>
+  </body>
+</html>
