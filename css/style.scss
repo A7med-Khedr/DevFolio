@@ -286,9 +286,12 @@ section.stats {
 section.portfolio {
   .row {
     figure {
+      max-height: 375px;
       .image {
         overflow: hidden;
         img {
+          height: 175px;
+          width: 100%;
           transition: 0.3s;
           &:hover {
             transform: scale(1.2);
